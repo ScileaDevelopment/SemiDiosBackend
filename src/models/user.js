@@ -9,6 +9,8 @@ var type = thinky.type;
     id: type.string(),
     nombre: type.string(),
     apellido: type.string(),
+    user:type.string(),
+    pass:type.string(),
     fecha_nacimiento: type.date(),
     email: type.string().email()
  });
